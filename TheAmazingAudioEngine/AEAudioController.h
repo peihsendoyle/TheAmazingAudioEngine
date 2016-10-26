@@ -513,6 +513,9 @@ typedef enum {
     /// Default options
     AEAudioControllerOptionDefaults =
         AEAudioControllerOptionEnableOutput | AEAudioControllerOptionAllowMixingWithOtherApps,
+    
+    AEAudioControllerOptionZyncas =
+    AEAudioControllerOptionEnableOutput | AEAudioControllerOptionEnableInput,
 } AEAudioControllerOptions;
 
 /*!
