@@ -515,7 +515,7 @@ typedef enum {
         AEAudioControllerOptionEnableOutput | AEAudioControllerOptionAllowMixingWithOtherApps,
     
     AEAudioControllerOptionZyncas =
-    AEAudioControllerOptionEnableOutput | AEAudioControllerOptionEnableInput,
+    AEAudioControllerOptionEnableOutput | AEAudioControllerOptionEnableInput | AEAudioControllerOptionUseHardwareSampleRate | AEAudioControllerOptionEnableBluetoothInput,
 } AEAudioControllerOptions;
 
 /*!
